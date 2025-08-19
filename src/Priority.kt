@@ -1,5 +1,5 @@
 enum class Priority {
-    HIGH, MEDIUM, LOW
+        LOW,MEDIUM,HIGH
 }
 
 

@@ -24,7 +24,7 @@ class NotificationManager {
      */
     fun sortTasks(): List<Task> {
         return tasks.sortedWith(
-            compareByDescending<Task> {
+            compareByDescending <Task> {
                 it.priority  // Sort by Priority enum (HIGH first)
             }.thenBy { it.deadline }  // Then by deadline string
         )
