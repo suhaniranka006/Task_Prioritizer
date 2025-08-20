@@ -57,6 +57,7 @@ Example:
 
 ## 📌UML Class Diagram
 classDiagram
+
     class Task {
         - title: String
         - deadline: String
